@@ -1,0 +1,13 @@
+[user]
+	name = Henrik Caesar
+	email = henrik.caesar@gmail.com
+[core]
+	editor = emacs
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	lg = log --graph --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[push]
+	default = simple
