@@ -49,7 +49,7 @@
 (set-default-font "Monospace-10"
 
 ;; Hide tool-bar (new, open, save, etc)
-(tool-bar-mode -1))
+(tool-bar-mode -1)
 
 ;; Increase the max length of the log before truncating
 (setq message-log-max 2000)
